@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "six-seven-blocker",
+	"version": "${version}",
+	"name": "six seven blocker",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/six-seven-blocker/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.christhabot.six_seven_blocker.SixSevenBlocker"
+		],
+		"client": [
+			"io.github.christhabot.six_seven_blocker.SixSevenBlockerClient"
+		]
+	},
+	"mixins": [
+		"six-seven-blocker.mixins.json",
+		{
+			"config": "six-seven-blocker.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
