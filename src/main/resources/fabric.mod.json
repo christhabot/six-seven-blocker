@@ -8,9 +8,9 @@
 		"ChrisThaBot"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/mod/shield-reset-sound",
-		"sources": "https://github.com/christhabot/shield-reset-sound",
-		"issues": "https://github.com/christhabot/shield-reset-sound/issues"
+		"homepage": "https://modrinth.com/mod/67-blocker",
+		"sources": "https://github.com/christhabot/six-seven-blocker",
+		"issues": "https://github.com/christhabot/six-seven-blocker/issues"
 	},
 	"license": "CC-BY-NC-ND-4.0",
 	"icon": "assets/six-seven-blocker/icon.png",
