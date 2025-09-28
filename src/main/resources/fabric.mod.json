@@ -3,15 +3,16 @@
 	"id": "six-seven-blocker",
 	"version": "${version}",
 	"name": "six seven blocker",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Removes any form of 6 7 (really really strict) from chat, replacing it with \"bad number\". This includes things like \"6 blah blah 7\", \"sSsIIIIXxX SEV33EENNNNN\", etc",
 	"authors": [
-		"Me!"
+		"ChrisThaBot"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/shield-reset-sound",
+		"sources": "https://github.com/christhabot/shield-reset-sound",
+		"issues": "https://github.com/christhabot/shield-reset-sound/issues"
 	},
-	"license": "CC0-1.0",
+	"license": "CC-BY-NC-ND-4.0",
 	"icon": "assets/six-seven-blocker/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -37,5 +38,12 @@
 	},
 	"suggests": {
 		"another-mod": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/AT7RdgZDj6"
+			}
+		}
 	}
 }
